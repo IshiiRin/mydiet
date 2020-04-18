@@ -25,14 +25,9 @@ header{
   display: flex;
   align-items: center;
 }
-
-/* .icon{
-  background-color: skyblue;
-}
- */
  
 .icon img{
-  /* border-radius: 20px; */
+  width:300px;
   border-radius: 50%;
   border-width: 4px;
   border-style: solid;
@@ -41,7 +36,6 @@ header{
 
 
 .info{
-  /* background-color: tomato; */
   margin-left:32px;
 }
 
