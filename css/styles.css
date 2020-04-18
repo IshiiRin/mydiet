@@ -96,6 +96,10 @@ footer p{
   color:gray;
 }
 
+form{
+  text-align: center;
+}
+
 .note{
   font-size:12px;
 }
