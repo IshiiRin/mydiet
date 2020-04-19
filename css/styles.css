@@ -15,6 +15,7 @@ header{
   text-align: center;
   font-weight: bold;
   font-size:36px;
+  margin-bottom: 20px;
 }
 
 .container{
@@ -66,16 +67,22 @@ header{
   margin-right: auto;
 }
 
+ul{
+  font-size:20px;
+  list-style-type: circle;
+  list-style-position: inside;
+}
 /* 「>」を入れるとクラスの直下の階層だけに適応される */
 .works > h1{ 
-  font-weight: normal;
-  font-size: 24px;
+  font-weight:bold;
+  font-size: 36px;
   text-align: center;
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .works >section{
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .works > section > h1{
@@ -86,25 +93,77 @@ header{
   line-height: 1.8;
 }
 
-footer p{
-  text-align: center;
-  font-size: 14px;
-  margin-bottom: 60px;
-  color:gray;
-}
 
-.impression_session{
+
+.cheer{
   width:400px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.impression_session > h1{ 
-  font-weight: normal;
+.cheer >.CheerButton{
+  background-color: skyblue;
+  font-weight:bold;
   font-size: 24px;
+  line-height: 2em;
   text-align: center;
-  margin-top: 60px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+.balloon1 {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  background: #FDF5E6;
+  border-radius: 15px;
+}
+
+.balloon1:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #FDF5E6;
+}
+
+.balloon2 {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  background: red;
+  border-radius: 15px;
+}
+
+.balloon2:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid red;
+}
+
+.balloon1 p {
+  margin: 0;
+  padding: 0;
 }
 
 .note{

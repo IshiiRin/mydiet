@@ -46,39 +46,64 @@
             * Youtubeチャンネル「CALISLIFE自重トレ」から転載
           </div>        
         </a>
-        <p>すごい運動してる。めっちゃ運動してる。驚くほど運動してる。すごい運動してる。めっちゃ運動してる。驚くほど運動してる。すごい運動してる。めっちゃ運動してる。驚くほど運動してる。すごい運動してる。めっちゃ運動してる。驚くほど運動してる。すごい運動してる。めっちゃ運動してる。驚くほど運動してる。すごい運動してる。めっちゃ運動してる。驚くほど運動してる。すごい運動してる。めっちゃ運動してる。驚くほど運動してる。すごい運動してる。めっちゃ運動してる。驚くほど運動してる。</p>
+        <p>
+          <ul>
+            <li>すごい運動してる。</li>
+            <li>めっちゃ運動してる。</li>
+            <li>驚くほど運動してる。</li>
+          </ul>
+        </p>
       </section>
-  
+      
       <h1>食事制限</h1>
       <section>
         <img src="img/salada.jpg" width="400" alt="食事制限の紹介画像">
-        <p>すごいサラダ食べてる。めっちゃサラダ食べてる。驚くほどサラダ食べてる。すごいサラダ食べてる。めっちゃサラダ食べてる。驚くほどサラダ食べてる。すごいサラダ食べてる。めっちゃサラダ食べてる。驚くほどサラダ食べてる。すごいサラダ食べてる。めっちゃサラダ食べてる。驚くほどサラダ食べてる。すごいサラダ食べてる。めっちゃサラダ食べてる。驚くほどサラダ食べてる。すごいサラダ食べてる。めっちゃサラダ食べてる。驚くほどサラダ食べてる。すごいサラダ食べてる。めっちゃサラダ食べてる。驚くほどサラダ食べてる。</p>
+        <p>
+          <ul>
+            <li>すごいサラダ食べてる。</li>
+            <li>めっちゃサラダ食べてる。</li>
+            <li>驚くほどサラダ食べてる。</li>
+          </ul>
+        </p>
       </section>
-
+      
       <h1>体重の変動</h1>
       <section>
         <img src="img/wheight.png" width="400" height="300" alt="体重減少の紹介画像">
-        <p>すごい減ってる。めっちゃ減ってる。驚くほど減ってる。すごい減ってる。めっちゃ減ってる。驚くほど減ってる。すごい減ってる。めっちゃ減ってる。驚くほど減ってる。すごい減ってる。めっちゃ減ってる。驚くほど減ってる。すごい減ってる。めっちゃ減ってる。驚くほど減ってる。すごい減ってる。めっちゃ減ってる。驚くほど減ってる。すごい減ってる。めっちゃ減ってる。驚くほど減ってる。</p>    
+          <p>
+            <ul>
+              <li>すごい痩せてる。</li>
+              <li>めっちゃ痩せてる。</li>
+              <li>驚くほど痩せてる。</li>
+            </ul>
+          </p> 
       </section>
     </section>
 
-    <section class="impression_session">
-      <h1>感想を送ってあげる</h1>
-      <form>
-        <label>
-          <select id="impression">
-            <option>すごいがんばってる</option>
-            <option>がんばってる</option>
-            <option>そこそこがんばってる</option>
-          </select>
-        </label>
-        <button>送信</button>
-      </form>
+    <section class="cheer">
+      <div class = "CheerButton" id="CheerButton">応援する（Click）</div>
+      <div>
+        <div class="balloon1" id="DoMyBest">
+          <p >応援待ってます</p>
+        </div>
+        <img src="img/rintaro.png" width="300" height="300" alt="石井臨太郎の写真">
+      </div>
     </section>
 
     <footer>
       <p>(c) rintaro-diet.com</p>
     </footer>
 
+    <script>
+      'use strict';
+      const CheerButton = document.getElementById('CheerButton');
+      const DoMyBest = document.getElementById('DoMyBest');
+
+      CheerButton.addEventListener('click', () => {
+        DoMyBest.innerText ='がんばります！！！';
+        DoMyBest.classList.remove('balloon1');
+        DoMyBest.classList.add('balloon2');
+      })
+    </script>
   </body>
 </html>
