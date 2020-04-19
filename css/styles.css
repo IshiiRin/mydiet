@@ -93,16 +93,14 @@ ul{
   line-height: 1.8;
 }
 
-
-
-.cheer{
+.cheervoice{
   width:400px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.cheer >.CheerButton{
+.cheervoice >.CheerButton{
   background-color: skyblue;
   font-weight:bold;
   font-size: 24px;
@@ -111,7 +109,6 @@ ul{
   border-radius: 15px;
   cursor: pointer;
 }
-
 
 .balloon1 {
   position: relative;
