@@ -67,6 +67,10 @@ header{
   margin-right: auto;
 }
 
+.note{
+  font-size:12px;
+}
+
 ul{
   font-size:20px;
   list-style-type: circle;
@@ -163,6 +167,9 @@ ul{
   padding: 0;
 }
 
-.note{
-  font-size:12px;
+footer p{
+  text-align: center;
+  font-size:14px;
+  margin-top:40px;
+  color:gray;
 }
