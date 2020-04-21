@@ -101,9 +101,23 @@
       const DoMyBest = document.getElementById('DoMyBest');
 
       CheerButton.addEventListener('click', () => {
-        DoMyBest.innerText ='がんばります！！！';
         DoMyBest.classList.remove('balloon1');
         DoMyBest.classList.add('balloon2');
+        const num = 3;
+        let winner = Math.floor(Math.random() * num); // 0 - 2
+        switch(winner){
+          case 0:
+          DoMyBest.innerText ='がんばります！！！';
+          break;
+          case 1:
+          DoMyBest.innerText ='痩せる気しかしない！';
+          break;
+          case 2:
+          DoMyBest.innerText ='今後も応援よろしく！';
+          break;
+        }
+
+
       })
     </script>
   </body>
